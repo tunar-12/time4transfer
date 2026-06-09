@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(if \\(Test-Path \"$env:USERPROFILE\\\\.claude\\\\skills\"\\) { Get-ChildItem \"$env:USERPROFILE\\\\.claude\\\\skills\" } else { Write-Output \"no skills dir\" })",
+      "Bash(gh api *)",
+      "PowerShell(gh api repos/anthropics/skills/contents/skills/frontend-design --jq '.[].name')",
+      "WebFetch(domain:api.github.com)",
+      "WebFetch(domain:raw.githubusercontent.com)"
+    ]
+  }
+}
