@@ -31,7 +31,7 @@
     "vehicle": "Fahrzeugklasse",
     "search": "Preise ansehen",
     "estimate": "Ihr Fahrpreis",
-    "estimateNote": "Fester Pauschalpreis — Maut, Steuern und Empfang inklusive. Kein Aufschlag.",
+    "estimateNote": "Festpreis für gängige Istanbul-Ziele (Maut, Steuern und Empfang inklusive). Ziele außerhalb der Standardzonen können abweichen — den Endpreis bestätigt unser Team per WhatsApp.",
     "serviceArea": "Wir bedienen derzeit Transfers vom oder zum Flughafen Istanbul (IST) und Sabiha Gökçen (SAW). Wählen Sie einen als Abholung oder Ziel.",
     "capacityWarn": "Zu viele Passagiere für dieses Fahrzeug. Wählen Sie einen Sprinter für Gruppen ab 7 Personen.",
     "payOnline": "Online zahlen",
@@ -126,12 +126,12 @@
       "body": "Wählen Sie Route, Datum und das passende Fahrzeug für Ihre Gruppe."
     },
     "step2": {
-      "title": "Ihr Fahrer ist da",
-      "body": "Ihr Fahrer wird dort auf Sie warten."
+      "title": "Fahrer bestätigen",
+      "body": "Wir weisen einen geprüften, englischsprachigen Fahrer zu und senden Ihnen seine Daten."
     },
     "step3": {
       "title": "Aus dem Flieger steigen",
-      "body": "Ihr Fahrer wartet im Ankunftsbereich mit Namensschild und einer Flasche Wasser."
+      "body": "Ihr Fahrer wird dort auf Sie warten."
     }
   },
   "payDriver": {

@@ -97,8 +97,9 @@ export function FleetGrid() {
             Four Mercedes, one promise.
           </h2>
           <p className="mt-4 text-stone text-pretty max-w-xl leading-[1.55]">
-            Pick the cabin that fits your party. Every fare is fixed — the
-            number you see here is the number you pay.
+            Pick the cabin that fits your party. Prices shown are fixed for
+            popular Istanbul destinations — drops outside the standard zones
+            are confirmed on WhatsApp before you book.
           </p>
         </header>
 

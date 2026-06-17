@@ -31,7 +31,7 @@
     "vehicle": "Araç sınıfı",
     "search": "Fiyatları gör",
     "estimate": "Ücretiniz",
-    "estimateNote": "Sabit tarife — geçiş, vergi ve karşılama dahil. Sürpriz zam yok.",
+    "estimateNote": "Standart İstanbul varış noktaları için sabit fiyat (geçiş, vergi ve karşılama dahil). Yaygın bölge dışı bırakışlar farklılık gösterebilir — nihai fiyatı ekibimiz WhatsApp üzerinden onaylar.",
     "serviceArea": "Şu an yalnızca İstanbul Havalimanı (IST) ve Sabiha Gökçen (SAW) transferlerini sunuyoruz. Alış veya bırakış olarak birini seçin.",
     "capacityWarn": "Bu araç için yolcu sayısı fazla. 7+ kişilik gruplar için Sprinter seçin.",
     "payOnline": "Online öde",
@@ -126,12 +126,12 @@
       "body": "Güzergâhınızı, tarihinizi ve grubunuza uygun aracı seçin."
     },
     "step2": {
-      "title": "Sürücünüz orada",
-      "body": "Sürücünüz sizi orada bekliyor olacak."
+      "title": "Sürücünüzü onaylayın",
+      "body": "Onaylı, İngilizce konuşan bir sürücü atar ve detaylarını paylaşırız."
     },
     "step3": {
       "title": "Uçaktan inin",
-      "body": "Sürücünüz isim levhası ve bir şişe suyla varış kapısında bekler."
+      "body": "Sürücünüz sizi orada bekliyor olacak."
     }
   },
   "payDriver": {

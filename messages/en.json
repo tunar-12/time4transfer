@@ -31,7 +31,7 @@
     "vehicle": "Vehicle class",
     "search": "See prices",
     "estimate": "Your fare",
-    "estimateNote": "Fixed flat rate — tolls, taxes and meet-and-greet included. No surge.",
+    "estimateNote": "Fixed rate for standard Istanbul destinations (tolls, taxes and meet-and-greet included). Drops outside the common Istanbul zones may differ — our team confirms the final price on WhatsApp.",
     "serviceArea": "We currently serve transfers to or from Istanbul Airport (IST) and Sabiha Gökçen (SAW). Pick one as pickup or drop-off.",
     "capacityWarn": "Too many passengers for this vehicle. Choose a Sprinter for groups of 7+.",
     "payOnline": "Pay online",
@@ -126,12 +126,12 @@
       "body": "Pick your route, date and the vehicle that fits your party."
     },
     "step2": {
-      "title": "Your driver is there",
-      "body": "Your driver will be waiting for you there."
+      "title": "Confirm your driver",
+      "body": "We assign a vetted English-speaking driver and send you their details."
     },
     "step3": {
       "title": "Step off the plane",
-      "body": "Your driver is waiting in arrivals with a name sign and a bottle of water."
+      "body": "Your driver will be waiting for you there."
     }
   },
   "payDriver": {
