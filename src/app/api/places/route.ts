@@ -28,9 +28,13 @@ const UA =
   "time4transfer/1.0 (https://time4transfer.example; hello@time4transfer.example)";
 
 const ISTANBUL_BIAS = {
+  // Google caps circle.radius at 50,000 m. Istanbul is ~100 km tip-to-tip, so
+  // a single circle from the city centre doesn't cover both IST and SAW, but
+  // it's a *bias* not a hard filter — results outside still surface, just
+  // ranked lower. Centred on the European side as the demand centre.
   circle: {
     center: { latitude: 41.015, longitude: 28.98 },
-    radius: 80000, // metres — covers both airports + city + nearby suburbs
+    radius: 50000,
   },
 };
 
@@ -115,7 +119,13 @@ async function searchGoogle(q: string, apiKey: string): Promise<PlaceResult[]> {
   });
 
   if (!res.ok) {
-    throw new Error(`Google Places autocomplete ${res.status}`);
+    const body = await res.text().catch(() => "");
+    // Surface Google's actual error in the server log for diagnosis.
+    // Common cases: "Places API (New)" not enabled on the project, the key
+    // has an HTTP-referrer restriction that blocks server-side calls, or
+    // the project doesn't have billing enabled.
+    console.error("[places] Google autocomplete failed", res.status, body.slice(0, 500));
+    throw new Error(`Google Places autocomplete ${res.status}: ${body.slice(0, 200)}`);
   }
   const data = (await res.json()) as GoogleAutocompleteResponse;
   return (data.suggestions ?? [])
