@@ -1,26 +1,175 @@
 @import "tailwindcss";
 
+/* Leaflet base styles (we import here so it's tree-shaken into the route map chunk) */
+@import "leaflet/dist/leaflet.css";
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* Brand palette — Premium dark + gold accent */
+  --brand-ink: #0c0a09;        /* deep near-black for text on light */
+  --brand-charcoal: #1c1917;   /* primary surface (dark) */
+  --brand-stone: #44403c;      /* secondary surface */
+  --brand-bone: #fafaf9;       /* light background */
+  --brand-gold: #ca8a04;       /* CTA / accent */
+  --brand-gold-soft: #eab308;  /* hover/glow */
+  --brand-gold-deep: #854d0e;  /* pressed/dark accent */
+  --brand-line: rgba(202, 138, 4, 0.18); /* hairline gold */
+
+  --background: var(--brand-bone);
+  --foreground: var(--brand-ink);
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+
+  --color-ink: var(--brand-ink);
+  --color-charcoal: var(--brand-charcoal);
+  --color-stone: var(--brand-stone);
+  --color-bone: var(--brand-bone);
+  --color-gold: var(--brand-gold);
+  --color-gold-soft: var(--brand-gold-soft);
+  --color-gold-deep: var(--brand-gold-deep);
+
+  --font-sans: var(--font-inter);
+  --font-serif: var(--font-playfair);
+  --font-accent: var(--font-fraunces);
+
+  --shadow-elevated: 0 30px 80px -20px rgba(12, 10, 9, 0.45);
+  --shadow-soft: 0 12px 40px -12px rgba(12, 10, 9, 0.18);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  scroll-behavior: smooth;
+  /* Floating navbar (h-14 + top-3/top-4) sits at ~72-80px; leave room */
+  scroll-padding-top: 5rem;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  font-synthesis-weight: none;
+  font-synthesis-style: none;
+  /* Prevent any stray child from kicking horizontal scroll on mobile.
+     Belt-and-braces: html + body both clamped + page width capped. */
+  overflow-x: hidden;
+  max-width: 100vw;
+}
+
+@media (min-width: 640px) {
+  html { scroll-padding-top: 6rem; }
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans), ui-sans-serif, system-ui, -apple-system,
+    "Segoe UI", Roboto, sans-serif;
+  /* ss01: alternate single-storey a · cv11: single-storey g · tnum: tabular figs in tables */
+  font-feature-settings: "ss01", "cv11";
+  letter-spacing: -0.005em;
+  overflow-x: hidden;
+  max-width: 100vw;
+  position: relative;
+}
+
+/* Native form controls (especially <input type="datetime-local">) have an
+   intrinsic minimum width that prevents flex/grid children from shrinking.
+   Forcing min-width:0 lets them obey their container instead of pushing it. */
+input, select, textarea {
+  min-width: 0;
+}
+
+/* Reusable utilities */
+.font-display {
+  font-family: var(--font-serif), ui-serif, "Iowan Old Style", Georgia, serif;
+  letter-spacing: -0.02em;
+  font-feature-settings: "lnum", "kern";
+}
+
+.font-accent {
+  font-family: var(--font-accent), var(--font-serif), ui-serif, Georgia, serif;
+}
+
+/* Tabular numerals — for prices, distances, durations, IDs */
+.tabular {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Slashed zero — for booking IDs, codes */
+.slashed {
+  font-variant-numeric: slashed-zero tabular-nums;
+}
+
+/* Modern text wrapping — prevents widow words on display headlines and
+   spreads paragraph rags more evenly. Both are progressive enhancements. */
+.text-balance { text-wrap: balance; }
+.text-pretty  { text-wrap: pretty; }
+
+.glass-light {
+  background: rgba(255, 255, 255, 0.72);
+  backdrop-filter: saturate(140%) blur(18px);
+  -webkit-backdrop-filter: saturate(140%) blur(18px);
+  border: 1px solid rgba(12, 10, 9, 0.06);
+}
+
+.glass-dark {
+  background: rgba(28, 25, 23, 0.62);
+  backdrop-filter: saturate(160%) blur(22px);
+  -webkit-backdrop-filter: saturate(160%) blur(22px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.hairline {
+  background-image: linear-gradient(90deg, transparent, var(--brand-line), transparent);
+  height: 1px;
+  width: 100%;
+}
+
+.gold-gradient-text {
+  background: linear-gradient(120deg, #ca8a04 0%, #eab308 40%, #fde68a 70%, #ca8a04 100%);
+  background-size: 200% 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: shimmer 9s linear infinite;
+}
+
+@keyframes shimmer {
+  0% { background-position: 0% 50%; }
+  100% { background-position: 200% 50%; }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-6px); }
+}
+
+.float-slow { animation: float 9s ease-in-out infinite; }
+
+/* Focus ring — gold halo with offset so it reads on both light + dark surfaces */
+:where(button, a, input, select, textarea, [role="button"]):focus-visible {
+  outline: 2px solid var(--brand-gold);
+  outline-offset: 3px;
+  border-radius: 8px;
+  transition: outline-offset 120ms ease;
+}
+
+/* Selection */
+::selection {
+  background: var(--brand-gold);
+  color: var(--brand-charcoal);
+}
+
+/* Hide leaflet attribution prefix flag */
+.leaflet-container { background: #0c0a09; border-radius: 14px; }
+.leaflet-control-attribution { font-size: 10px; opacity: 0.6; }
+
+/* Reduce motion */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+  .gold-gradient-text { animation: none; }
+  .float-slow { animation: none; }
 }

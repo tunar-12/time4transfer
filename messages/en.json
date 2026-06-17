@@ -1,0 +1,224 @@
+{
+  "meta": {
+    "title": "time4transfer — Private Istanbul Airport Transfers (IST & SAW)",
+    "description": "Fixed-price private transfers from Istanbul Airport (IST) and Sabiha Gökçen (SAW) to anywhere in the city. Standard & Premium Mercedes Vito and Sprinter. Pay online or directly to your driver."
+  },
+  "nav": {
+    "fleet": "Fleet",
+    "routes": "Popular Routes",
+    "how": "How it works",
+    "faq": "FAQ",
+    "book": "Book a transfer"
+  },
+  "hero": {
+    "eyebrow": "Istanbul airport transfers · IST & SAW",
+    "titleA": "Arrive in Istanbul",
+    "titleB": "the way you deserve",
+    "subtitle": "Fixed-price chauffeur transfers from both Istanbul airports — IST and Sabiha Gökçen. Mercedes Vito and Sprinter, English-speaking drivers, and a meet-and-greet that turns travel into hospitality."
+  },
+  "booking": {
+    "title": "Plan your transfer",
+    "subtitle": "Get a fixed quote in seconds — no card required.",
+    "from": "Pickup",
+    "fromPlaceholder": "Airport, hotel or address",
+    "to": "Drop-off",
+    "toPlaceholder": "Where are you going?",
+    "date": "Date & time",
+    "passengers": "Passengers",
+    "passenger": "passenger",
+    "passengersPlural": "passengers",
+    "luggage": "Luggage",
+    "vehicle": "Vehicle class",
+    "search": "See prices",
+    "estimate": "Your fare",
+    "estimateNote": "Fixed flat rate — tolls, taxes and meet-and-greet included. No surge.",
+    "serviceArea": "We currently serve transfers to or from Istanbul Airport (IST) and Sabiha Gökçen (SAW). Pick one as pickup or drop-off.",
+    "capacityWarn": "Too many passengers for this vehicle. Choose a Sprinter for groups of 7+.",
+    "payOnline": "Pay online",
+    "payDriver": "Pay driver directly",
+    "payChoiceHint": "Choose at checkout — cash, card, or transfer.",
+    "continue": "Continue to details",
+    "back": "Back",
+    "confirm": "Confirm booking",
+    "firstName": "First name",
+    "lastName": "Last name",
+    "passengerN": "Passenger {n}",
+    "passengerDetails": "Passenger details",
+    "flightNumber": "Flight number",
+    "whatsappNumber": "WhatsApp number",
+    "whatsappHint": "We'll reply on this number — include country code",
+    "fieldRequired": "Required",
+    "payToDriverHeading": "Pay your driver on arrival",
+    "payToDriverNote": "Cash or card to the driver — no online payment, no card on file. You only pay once we've met you.",
+    "submitWhatsApp": "Send via WhatsApp",
+    "submitNote": "Opens WhatsApp with your booking pre-filled. A human replies within minutes.",
+    "successTitle": "Sent to WhatsApp",
+    "successBody": "Your booking opened in WhatsApp. Send the message and our team will confirm within minutes.",
+    "newBooking": "Plan another transfer",
+    "whatsappTemplate": "Hello time4transfer,\n\nI'd like to book a transfer.\n\nPickup: {pickup}\nDrop-off: {dropoff}\nWhen: {datetime}\nPassengers: {passengers}\nVehicle: {vehicle}\nFare: {price} (Pay on arrival)\n\nPassenger names:\n{passengerList}\n\nWhatsApp: {whatsappNumber}\nEmail: {email}\nFlight: {flight}\n\nPlease confirm. Thank you!",
+    "needRoute": "Add a pickup and drop-off to see your route.",
+    "loadingMap": "Loading map…",
+    "distance": "Distance",
+    "duration": "Approx. duration",
+    "min": "min",
+    "km": "km"
+  },
+  "vehicles": {
+    "vitoStandard": {
+      "name": "Standard Vito",
+      "tag": "Up to 6 passengers · 6 cases",
+      "blurb": "Mercedes Vito with comfortable bench seating. The everyday workhorse for families and small groups.",
+      "fromIst": 60,
+      "fromSaw": 70,
+      "capacity": 6
+    },
+    "vitoPremium": {
+      "name": "Premium Vito",
+      "tag": "Up to 4 passengers · VIP captain seats",
+      "blurb": "Mercedes Vito in VIP layout — captain seats, extra legroom, privacy glass. Four guests, business-class comfort.",
+      "fromIst": 80,
+      "fromSaw": 90,
+      "capacity": 4
+    },
+    "sprinterStandard": {
+      "name": "Standard Sprinter",
+      "tag": "Up to 12 passengers · 12 cases",
+      "blurb": "Mercedes Sprinter for larger groups. Ample luggage room, climate zones, easy boarding.",
+      "fromIst": 90,
+      "fromSaw": 100,
+      "capacity": 12
+    },
+    "sprinterPremium": {
+      "name": "Premium Sprinter",
+      "tag": "Up to 12 passengers · Premium interior",
+      "blurb": "Sprinter with premium upholstery, mood lighting and refreshments. Group travel without compromise.",
+      "fromIst": 120,
+      "fromSaw": 130,
+      "capacity": 12
+    }
+  },
+  "trust": {
+    "title": "Why travellers choose us",
+    "items": {
+      "support": {
+        "title": "24/7 human support",
+        "body": "Real people on WhatsApp, phone and email — in English, Russian, German and Turkish."
+      },
+      "fixed": {
+        "title": "Fixed prices, no surprises",
+        "body": "The price you see is the price you pay. Tolls, taxes and meet-and-greet included."
+      },
+      "payDriver": {
+        "title": "Zero-risk payment",
+        "body": "Pay online if you want certainty, or settle directly with your driver on arrival."
+      },
+      "free": {
+        "title": "Free cancellation",
+        "body": "Plans change. Cancel up to 24 hours before pickup at no cost, ever."
+      }
+    }
+  },
+  "how": {
+    "title": "Booked in under a minute",
+    "subtitle": "Three steps from landing to your hotel lobby.",
+    "step1": {
+      "title": "Tell us where",
+      "body": "Pick your route, date and the vehicle that fits your party."
+    },
+    "step2": {
+      "title": "Confirm your driver",
+      "body": "We assign a vetted English-speaking driver and send you their details."
+    },
+    "step3": {
+      "title": "Step off the plane",
+      "body": "Your driver is waiting in arrivals with a name sign and a bottle of water."
+    }
+  },
+  "payDriver": {
+    "badge": "Zero-risk booking",
+    "title": "Pay only when you've met your driver",
+    "body": "We don't ask for a card upfront. Reserve in 30 seconds, meet your chauffeur on arrival, then pay — cash, card or transfer. Online pre-payment is there if you prefer it.",
+    "bullet1": "No deposit, no pre-authorisation",
+    "bullet2": "Free cancellation up to 24h before pickup",
+    "bullet3": "Receipt issued on the spot",
+    "cta": "Reserve a transfer"
+  },
+  "routes": {
+    "title": "Popular Istanbul routes",
+    "subtitle": "Every-day journeys with our Standard Vito — fixed prices, no surprises.",
+    "from": "from",
+    "list": {
+      "ist_taksim": { "from": "Istanbul Airport (IST)", "to": "Taksim / Beyoğlu", "duration": "55 min", "price": 60 },
+      "ist_sultan": { "from": "Istanbul Airport (IST)", "to": "Sultanahmet", "duration": "60 min", "price": 60 },
+      "ist_besiktas": { "from": "Istanbul Airport (IST)", "to": "Beşiktaş", "duration": "50 min", "price": 60 },
+      "saw_kadikoy": { "from": "Sabiha Gökçen (SAW)", "to": "Kadıköy", "duration": "40 min", "price": 70 },
+      "saw_sultan": { "from": "Sabiha Gökçen (SAW)", "to": "Sultanahmet", "duration": "60 min", "price": 70 },
+      "saw_taksim": { "from": "Sabiha Gökçen (SAW)", "to": "Taksim / Beyoğlu", "duration": "55 min", "price": 70 }
+    }
+  },
+  "testimonials": {
+    "title": "What our passengers say",
+    "items": [
+      {
+        "quote": "Driver was waiting before we even cleared customs at IST. The Sprinter felt like a private lounge after a long flight.",
+        "name": "Sophia M.",
+        "trip": "London → Istanbul (IST), family of 5"
+      },
+      {
+        "quote": "Booked at 2am the night before. Confirmed in minutes, fixed price, paid the driver in cash at Sabiha Gökçen. Exactly what I needed.",
+        "name": "Daniel K.",
+        "trip": "Frankfurt → Istanbul (SAW), business trip"
+      },
+      {
+        "quote": "Russian-speaking driver, spotless Vito, helped with the kids' bags right at arrivals. We use time4transfer every time we land in Istanbul.",
+        "name": "Irina V.",
+        "trip": "Moscow → Istanbul (IST), weekend with family"
+      }
+    ]
+  },
+  "faq": {
+    "title": "Questions, answered",
+    "items": [
+      {
+        "q": "What happens if my flight is delayed?",
+        "a": "We track your flight automatically. Your driver adjusts pickup to the real landing time, with up to 60 minutes of free waiting included."
+      },
+      {
+        "q": "Can I pay the driver in cash?",
+        "a": "Yes — that's our zero-risk option. You can pay in euro, US dollar, British pound or Turkish lira. Card on arrival is also fine."
+      },
+      {
+        "q": "Are child seats available?",
+        "a": "Baby, toddler and booster seats are free of charge. Just add them when you book."
+      },
+      {
+        "q": "Do you operate outside the main tourist airports?",
+        "a": "Yes. We cover every commercial airport in Turkey, plus port pickups and intercity transfers."
+      },
+      {
+        "q": "What if I need to cancel?",
+        "a": "Free cancellation up to 24 hours before pickup. After that, we ask for a 50% fee to cover the driver's reserved time."
+      }
+    ]
+  },
+  "footer": {
+    "tagline": "Private transfers, treated as hospitality.",
+    "company": "Company",
+    "about": "About",
+    "fleet": "Our fleet",
+    "careers": "Careers",
+    "press": "Press",
+    "support": "Support",
+    "contact": "Contact",
+    "help": "Help centre",
+    "terms": "Terms",
+    "privacy": "Privacy",
+    "legal": "time4transfer · İstanbul · Türkiye",
+    "rights": "All rights reserved."
+  },
+  "common": {
+    "language": "Language",
+    "menu": "Menu",
+    "close": "Close"
+  }
+}

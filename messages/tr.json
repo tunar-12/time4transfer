@@ -1,0 +1,224 @@
+{
+  "meta": {
+    "title": "time4transfer — İstanbul Havalimanı Özel Transferleri (IST & SAW)",
+    "description": "İstanbul Havalimanı (IST) ve Sabiha Gökçen'den (SAW) şehrin her noktasına sabit fiyatlı özel transferler. Standart ve Premium Mercedes Vito ve Sprinter. Online veya sürücüye doğrudan ödeyin."
+  },
+  "nav": {
+    "fleet": "Filo",
+    "routes": "Popüler Güzergâhlar",
+    "how": "Nasıl çalışır",
+    "faq": "SSS",
+    "book": "Transfer ayırt"
+  },
+  "hero": {
+    "eyebrow": "İstanbul havalimanı transferleri · IST & SAW",
+    "titleA": "İstanbul'a",
+    "titleB": "hak ettiğiniz gibi varın",
+    "subtitle": "İstanbul'un iki havalimanından — IST ve Sabiha Gökçen — sabit fiyatlı şoförlü transferler. Mercedes Vito ve Sprinter, İngilizce konuşan sürücüler ve seyahati misafirperverliğe dönüştüren bir karşılama."
+  },
+  "booking": {
+    "title": "Transferinizi planlayın",
+    "subtitle": "Saniyeler içinde sabit teklif — kart gerekmez.",
+    "from": "Alış noktası",
+    "fromPlaceholder": "Havalimanı, otel veya adres",
+    "to": "Bırakış noktası",
+    "toPlaceholder": "Nereye gidiyorsunuz?",
+    "date": "Tarih ve saat",
+    "passengers": "Yolcular",
+    "passenger": "yolcu",
+    "passengersPlural": "yolcu",
+    "luggage": "Bagaj",
+    "vehicle": "Araç sınıfı",
+    "search": "Fiyatları gör",
+    "estimate": "Ücretiniz",
+    "estimateNote": "Sabit tarife — geçiş, vergi ve karşılama dahil. Sürpriz zam yok.",
+    "serviceArea": "Şu an yalnızca İstanbul Havalimanı (IST) ve Sabiha Gökçen (SAW) transferlerini sunuyoruz. Alış veya bırakış olarak birini seçin.",
+    "capacityWarn": "Bu araç için yolcu sayısı fazla. 7+ kişilik gruplar için Sprinter seçin.",
+    "payOnline": "Online öde",
+    "payDriver": "Sürücüye öde",
+    "payChoiceHint": "Ödeme aşamasında seçin — nakit, kart veya havale.",
+    "continue": "Detaylara geç",
+    "back": "Geri",
+    "confirm": "Rezervasyonu onayla",
+    "firstName": "Ad",
+    "lastName": "Soyad",
+    "passengerN": "Yolcu {n}",
+    "passengerDetails": "Yolcu bilgileri",
+    "flightNumber": "Uçuş numarası",
+    "whatsappNumber": "WhatsApp numarası",
+    "whatsappHint": "Bu numaradan yanıt vereceğiz — ülke kodu dahil",
+    "fieldRequired": "Zorunlu",
+    "payToDriverHeading": "Varışta sürücüye ödeyin",
+    "payToDriverNote": "Sürücüye nakit veya kart — online ödeme yok, kart kayıt yok. Yalnızca sizi karşıladığımızda ödersiniz.",
+    "submitWhatsApp": "WhatsApp ile gönder",
+    "submitNote": "WhatsApp'ı rezervasyon bilgileriniz hazır olarak açar. Bir insan dakikalar içinde yanıtlar.",
+    "successTitle": "WhatsApp'a gönderildi",
+    "successBody": "Rezervasyonunuz WhatsApp'ta açıldı. Mesajı gönderin, ekibimiz dakikalar içinde onaylasın.",
+    "newBooking": "Başka bir transfer planla",
+    "whatsappTemplate": "Merhaba time4transfer,\n\nBir transfer ayırtmak istiyorum.\n\nAlış: {pickup}\nBırakış: {dropoff}\nTarih: {datetime}\nYolcular: {passengers}\nAraç: {vehicle}\nÜcret: {price} (Varışta ödeme)\n\nYolcu adları:\n{passengerList}\n\nWhatsApp: {whatsappNumber}\nE-posta: {email}\nUçuş: {flight}\n\nLütfen onaylayın. Teşekkürler!",
+    "needRoute": "Güzergâhı görmek için alış ve bırakış ekleyin.",
+    "loadingMap": "Harita yükleniyor…",
+    "distance": "Mesafe",
+    "duration": "Yaklaşık süre",
+    "min": "dk",
+    "km": "km"
+  },
+  "vehicles": {
+    "vitoStandard": {
+      "name": "Standart Vito",
+      "tag": "6 yolcuya kadar · 6 valiz",
+      "blurb": "Konforlu oturma düzenine sahip Mercedes Vito. Aileler ve küçük gruplar için günlük tercih.",
+      "fromIst": 60,
+      "fromSaw": 70,
+      "capacity": 6
+    },
+    "vitoPremium": {
+      "name": "Premium Vito",
+      "tag": "4 yolcuya kadar · VIP kaptan koltukları",
+      "blurb": "VIP düzenli Mercedes Vito — kaptan koltukları, ek diz mesafesi, gizlilik camı. Dört kişiye business sınıfı konfor.",
+      "fromIst": 80,
+      "fromSaw": 90,
+      "capacity": 4
+    },
+    "sprinterStandard": {
+      "name": "Standart Sprinter",
+      "tag": "12 yolcuya kadar · 12 valiz",
+      "blurb": "Büyük gruplar için Mercedes Sprinter. Bol bagaj, iklim bölgeleri, kolay biniş.",
+      "fromIst": 90,
+      "fromSaw": 100,
+      "capacity": 12
+    },
+    "sprinterPremium": {
+      "name": "Premium Sprinter",
+      "tag": "12 yolcuya kadar · Premium iç mekan",
+      "blurb": "Premium döşeme, ambiyans aydınlatması ve ikram ile Sprinter. Grup yolculuğunda ödün yok.",
+      "fromIst": 120,
+      "fromSaw": 130,
+      "capacity": 12
+    }
+  },
+  "trust": {
+    "title": "Yolcular neden bizi seçiyor",
+    "items": {
+      "support": {
+        "title": "7/24 gerçek insan desteği",
+        "body": "WhatsApp, telefon ve e-posta — İngilizce, Rusça, Almanca ve Türkçe."
+      },
+      "fixed": {
+        "title": "Sabit fiyat, sürpriz yok",
+        "body": "Gördüğünüz fiyat ödediğiniz fiyattır. Geçiş, vergi ve karşılama dahil."
+      },
+      "payDriver": {
+        "title": "Risksiz ödeme",
+        "body": "Kesinlik istiyorsanız online ödeyin ya da varışta doğrudan sürücüye ödeyin."
+      },
+      "free": {
+        "title": "Ücretsiz iptal",
+        "body": "Planlar değişir. Alıştan 24 saat öncesine kadar ücretsiz iptal."
+      }
+    }
+  },
+  "how": {
+    "title": "Bir dakikadan kısa sürede rezervasyon",
+    "subtitle": "İnişten otel lobinize üç adım.",
+    "step1": {
+      "title": "Bize nereye olduğunu söyleyin",
+      "body": "Güzergâhınızı, tarihinizi ve grubunuza uygun aracı seçin."
+    },
+    "step2": {
+      "title": "Sürücünüzü onaylayın",
+      "body": "Onaylı, İngilizce konuşan bir sürücü atar ve detaylarını paylaşırız."
+    },
+    "step3": {
+      "title": "Uçaktan inin",
+      "body": "Sürücünüz isim levhası ve bir şişe suyla varış kapısında bekler."
+    }
+  },
+  "payDriver": {
+    "badge": "Risksiz rezervasyon",
+    "title": "Sadece sürücünüzle buluşunca ödeyin",
+    "body": "Önceden kart istemiyoruz. 30 saniyede ayırtın, varışta şoförünüzle buluşun, sonra ödeyin — nakit, kart veya havale. Tercih ederseniz online ön ödeme de mümkün.",
+    "bullet1": "Depozito yok, ön provizyon yok",
+    "bullet2": "Alıştan 24 saat öncesine kadar ücretsiz iptal",
+    "bullet3": "Fatura yerinde verilir",
+    "cta": "Transfer ayırt"
+  },
+  "routes": {
+    "title": "Popüler İstanbul güzergâhları",
+    "subtitle": "Standart Vito ile her gün gerçekleşen yolculuklar — sabit fiyat, sürpriz yok.",
+    "from": "den itibaren",
+    "list": {
+      "ist_taksim": { "from": "İstanbul Havalimanı (IST)", "to": "Taksim / Beyoğlu", "duration": "55 dk", "price": 60 },
+      "ist_sultan": { "from": "İstanbul Havalimanı (IST)", "to": "Sultanahmet", "duration": "60 dk", "price": 60 },
+      "ist_besiktas": { "from": "İstanbul Havalimanı (IST)", "to": "Beşiktaş", "duration": "50 dk", "price": 60 },
+      "saw_kadikoy": { "from": "Sabiha Gökçen (SAW)", "to": "Kadıköy", "duration": "40 dk", "price": 70 },
+      "saw_sultan": { "from": "Sabiha Gökçen (SAW)", "to": "Sultanahmet", "duration": "60 dk", "price": 70 },
+      "saw_taksim": { "from": "Sabiha Gökçen (SAW)", "to": "Taksim / Beyoğlu", "duration": "55 dk", "price": 70 }
+    }
+  },
+  "testimonials": {
+    "title": "Yolcularımız ne diyor",
+    "items": [
+      {
+        "quote": "IST'de pasaport kontrolünden çıkmadan sürücü bekliyordu. Uzun uçuştan sonra Sprinter özel bir lounge gibiydi.",
+        "name": "Sophia M.",
+        "trip": "Londra → İstanbul (IST), 5 kişilik aile"
+      },
+      {
+        "quote": "Bir gün öncesinde gece 02:00'de ayırttım. Dakikalar içinde onay, sabit fiyat, Sabiha Gökçen'de sürücüye nakit ödedim. Tam ihtiyacım olan şey.",
+        "name": "Daniel K.",
+        "trip": "Frankfurt → İstanbul (SAW), iş seyahati"
+      },
+      {
+        "quote": "Rusça konuşan sürücü, tertemiz Vito, varış noktasında çocukların çantalarına yardım etti. İstanbul'a her gelişimizde time4transfer kullanıyoruz.",
+        "name": "Irina V.",
+        "trip": "Moskova → İstanbul (IST), ailecek hafta sonu"
+      }
+    ]
+  },
+  "faq": {
+    "title": "Sorularınızın cevabı",
+    "items": [
+      {
+        "q": "Uçuşum gecikirse ne olur?",
+        "a": "Uçuşunuzu otomatik takip ederiz. Sürücünüz alışı gerçek iniş saatine göre ayarlar, 60 dakikaya kadar ücretsiz bekleme dahildir."
+      },
+      {
+        "q": "Sürücüye nakit ödeyebilir miyim?",
+        "a": "Evet — risksiz seçeneğimiz budur. Euro, ABD doları, İngiliz sterlini veya Türk lirası kabul ederiz. Varışta kart da olur."
+      },
+      {
+        "q": "Çocuk koltuğu mevcut mu?",
+        "a": "Bebek, çocuk ve yükseltici koltuklar ücretsizdir. Rezervasyon sırasında ekleyin."
+      },
+      {
+        "q": "Ana turistik havalimanları dışında çalışıyor musunuz?",
+        "a": "Evet. Türkiye'deki tüm ticari havalimanlarını, liman alışlarını ve şehirlerarası transferleri kapsıyoruz."
+      },
+      {
+        "q": "İptal etmem gerekirse?",
+        "a": "Alıştan 24 saat öncesine kadar ücretsiz iptal. Sonrasında, sürücünün ayrılan zamanı için %50 ücret talep ederiz."
+      }
+    ]
+  },
+  "footer": {
+    "tagline": "Misafirperverlik olarak ele alınan özel transferler.",
+    "company": "Şirket",
+    "about": "Hakkımızda",
+    "fleet": "Filomuz",
+    "careers": "Kariyer",
+    "press": "Basın",
+    "support": "Destek",
+    "contact": "İletişim",
+    "help": "Yardım merkezi",
+    "terms": "Şartlar",
+    "privacy": "Gizlilik",
+    "legal": "time4transfer · İstanbul · Türkiye",
+    "rights": "Tüm hakları saklıdır."
+  },
+  "common": {
+    "language": "Dil",
+    "menu": "Menü",
+    "close": "Kapat"
+  }
+}

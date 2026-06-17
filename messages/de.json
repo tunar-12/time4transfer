@@ -1,0 +1,224 @@
+{
+  "meta": {
+    "title": "time4transfer — Private Istanbul-Flughafentransfers (IST & SAW)",
+    "description": "Festpreis-Privattransfers vom Flughafen Istanbul (IST) und Sabiha Gökçen (SAW) in die ganze Stadt. Standard- und Premium-Mercedes-Vito und -Sprinter. Online oder direkt beim Fahrer zahlen."
+  },
+  "nav": {
+    "fleet": "Flotte",
+    "routes": "Beliebte Strecken",
+    "how": "So funktioniert es",
+    "faq": "FAQ",
+    "book": "Transfer buchen"
+  },
+  "hero": {
+    "eyebrow": "Istanbul-Flughafentransfers · IST & SAW",
+    "titleA": "Ankommen in Istanbul,",
+    "titleB": "wie Sie es verdienen",
+    "subtitle": "Festpreis-Chauffeurtransfers von beiden Istanbuler Flughäfen — IST und Sabiha Gökçen. Mercedes Vito und Sprinter, englischsprachige Fahrer und ein Empfang, der Reisen in Gastfreundschaft verwandelt."
+  },
+  "booking": {
+    "title": "Planen Sie Ihren Transfer",
+    "subtitle": "Festpreis-Angebot in Sekunden — keine Kreditkarte nötig.",
+    "from": "Abholung",
+    "fromPlaceholder": "Flughafen, Hotel oder Adresse",
+    "to": "Zielort",
+    "toPlaceholder": "Wohin geht es?",
+    "date": "Datum & Uhrzeit",
+    "passengers": "Passagiere",
+    "passenger": "Passagier",
+    "passengersPlural": "Passagiere",
+    "luggage": "Gepäck",
+    "vehicle": "Fahrzeugklasse",
+    "search": "Preise ansehen",
+    "estimate": "Ihr Fahrpreis",
+    "estimateNote": "Fester Pauschalpreis — Maut, Steuern und Empfang inklusive. Kein Aufschlag.",
+    "serviceArea": "Wir bedienen derzeit Transfers vom oder zum Flughafen Istanbul (IST) und Sabiha Gökçen (SAW). Wählen Sie einen als Abholung oder Ziel.",
+    "capacityWarn": "Zu viele Passagiere für dieses Fahrzeug. Wählen Sie einen Sprinter für Gruppen ab 7 Personen.",
+    "payOnline": "Online zahlen",
+    "payDriver": "Direkt beim Fahrer zahlen",
+    "payChoiceHint": "Beim Check-out wählen — bar, Karte oder Überweisung.",
+    "continue": "Weiter zu Details",
+    "back": "Zurück",
+    "confirm": "Buchung bestätigen",
+    "firstName": "Vorname",
+    "lastName": "Nachname",
+    "passengerN": "Passagier {n}",
+    "passengerDetails": "Passagier-Details",
+    "flightNumber": "Flugnummer",
+    "whatsappNumber": "WhatsApp-Nummer",
+    "whatsappHint": "Wir antworten auf dieser Nummer — mit Ländervorwahl",
+    "fieldRequired": "Pflichtfeld",
+    "payToDriverHeading": "Beim Fahrer bei Ankunft zahlen",
+    "payToDriverNote": "Bar oder Karte beim Fahrer — keine Online-Zahlung, keine Karte hinterlegt. Sie zahlen erst, wenn wir uns getroffen haben.",
+    "submitWhatsApp": "Per WhatsApp senden",
+    "submitNote": "Öffnet WhatsApp mit Ihrer vorab ausgefüllten Buchung. Ein Mensch antwortet innerhalb von Minuten.",
+    "successTitle": "An WhatsApp gesendet",
+    "successBody": "Ihre Buchung wurde in WhatsApp geöffnet. Senden Sie die Nachricht — unser Team bestätigt innerhalb von Minuten.",
+    "newBooking": "Weiteren Transfer planen",
+    "whatsappTemplate": "Hallo time4transfer,\n\nIch möchte einen Transfer buchen.\n\nAbholung: {pickup}\nZiel: {dropoff}\nWann: {datetime}\nPassagiere: {passengers}\nFahrzeug: {vehicle}\nPreis: {price} (Zahlung bei Ankunft)\n\nPassagiernamen:\n{passengerList}\n\nWhatsApp: {whatsappNumber}\nE-Mail: {email}\nFlug: {flight}\n\nBitte bestätigen. Vielen Dank!",
+    "needRoute": "Fügen Sie Abholung und Ziel hinzu, um Ihre Route zu sehen.",
+    "loadingMap": "Karte wird geladen…",
+    "distance": "Entfernung",
+    "duration": "Ungefähre Dauer",
+    "min": "Min",
+    "km": "km"
+  },
+  "vehicles": {
+    "vitoStandard": {
+      "name": "Standard Vito",
+      "tag": "Bis 6 Passagiere · 6 Koffer",
+      "blurb": "Mercedes Vito mit komfortabler Sitzanordnung. Der Alltagsbegleiter für Familien und kleine Gruppen.",
+      "fromIst": 60,
+      "fromSaw": 70,
+      "capacity": 6
+    },
+    "vitoPremium": {
+      "name": "Premium Vito",
+      "tag": "Bis 4 Passagiere · VIP-Kapitänssitze",
+      "blurb": "Mercedes Vito im VIP-Layout — Kapitänssitze, extra Beinfreiheit, Sichtschutzglas. Vier Gäste, Business-Class-Komfort.",
+      "fromIst": 80,
+      "fromSaw": 90,
+      "capacity": 4
+    },
+    "sprinterStandard": {
+      "name": "Standard Sprinter",
+      "tag": "Bis 12 Passagiere · 12 Koffer",
+      "blurb": "Mercedes Sprinter für größere Gruppen. Viel Gepäckraum, Klimazonen, einfacher Einstieg.",
+      "fromIst": 90,
+      "fromSaw": 100,
+      "capacity": 12
+    },
+    "sprinterPremium": {
+      "name": "Premium Sprinter",
+      "tag": "Bis 12 Passagiere · Premium-Interieur",
+      "blurb": "Sprinter mit Premium-Polsterung, Ambientelicht und Erfrischungen. Gruppenreisen ohne Kompromisse.",
+      "fromIst": 120,
+      "fromSaw": 130,
+      "capacity": 12
+    }
+  },
+  "trust": {
+    "title": "Warum Reisende uns wählen",
+    "items": {
+      "support": {
+        "title": "24/7-Support durch echte Menschen",
+        "body": "Echte Menschen per WhatsApp, Telefon und E-Mail — auf Englisch, Russisch, Deutsch und Türkisch."
+      },
+      "fixed": {
+        "title": "Festpreise, keine Überraschungen",
+        "body": "Was Sie sehen, zahlen Sie. Maut, Steuern und Empfang sind inklusive."
+      },
+      "payDriver": {
+        "title": "Risikofreie Zahlung",
+        "body": "Zahlen Sie online für Sicherheit oder direkt beim Fahrer bei Ankunft."
+      },
+      "free": {
+        "title": "Kostenlose Stornierung",
+        "body": "Pläne ändern sich. Bis 24 Stunden vor Abholung kostenlos stornieren."
+      }
+    }
+  },
+  "how": {
+    "title": "In unter einer Minute gebucht",
+    "subtitle": "Drei Schritte von der Landung bis zur Hotellobby.",
+    "step1": {
+      "title": "Sagen Sie uns wohin",
+      "body": "Wählen Sie Route, Datum und das passende Fahrzeug für Ihre Gruppe."
+    },
+    "step2": {
+      "title": "Fahrer bestätigen",
+      "body": "Wir weisen einen geprüften, englischsprachigen Fahrer zu und senden Ihnen seine Daten."
+    },
+    "step3": {
+      "title": "Aus dem Flieger steigen",
+      "body": "Ihr Fahrer wartet im Ankunftsbereich mit Namensschild und einer Flasche Wasser."
+    }
+  },
+  "payDriver": {
+    "badge": "Risikofreie Buchung",
+    "title": "Erst zahlen, wenn Sie Ihren Fahrer getroffen haben",
+    "body": "Wir fragen vorab keine Karte ab. In 30 Sekunden reservieren, Fahrer bei Ankunft treffen, dann zahlen — bar, Karte oder Überweisung. Online-Vorauszahlung ist möglich, wenn Sie das bevorzugen.",
+    "bullet1": "Keine Anzahlung, keine Vorautorisierung",
+    "bullet2": "Kostenlose Stornierung bis 24 Std. vor Abholung",
+    "bullet3": "Beleg sofort vor Ort ausgestellt",
+    "cta": "Transfer reservieren"
+  },
+  "routes": {
+    "title": "Beliebte Istanbul-Strecken",
+    "subtitle": "Tägliche Fahrten mit unserem Standard Vito — Festpreis, keine Überraschungen.",
+    "from": "ab",
+    "list": {
+      "ist_taksim": { "from": "Flughafen Istanbul (IST)", "to": "Taksim / Beyoğlu", "duration": "55 Min", "price": 60 },
+      "ist_sultan": { "from": "Flughafen Istanbul (IST)", "to": "Sultanahmet", "duration": "60 Min", "price": 60 },
+      "ist_besiktas": { "from": "Flughafen Istanbul (IST)", "to": "Beşiktaş", "duration": "50 Min", "price": 60 },
+      "saw_kadikoy": { "from": "Sabiha Gökçen (SAW)", "to": "Kadıköy", "duration": "40 Min", "price": 70 },
+      "saw_sultan": { "from": "Sabiha Gökçen (SAW)", "to": "Sultanahmet", "duration": "60 Min", "price": 70 },
+      "saw_taksim": { "from": "Sabiha Gökçen (SAW)", "to": "Taksim / Beyoğlu", "duration": "55 Min", "price": 70 }
+    }
+  },
+  "testimonials": {
+    "title": "Was unsere Passagiere sagen",
+    "items": [
+      {
+        "quote": "Der Fahrer wartete am IST, bevor wir den Zoll verließen. Der Sprinter fühlte sich nach dem langen Flug wie eine private Lounge an.",
+        "name": "Sophia M.",
+        "trip": "London → Istanbul (IST), Familie mit 5"
+      },
+      {
+        "quote": "Um 2 Uhr nachts gebucht. In Minuten bestätigt, Festpreis, am Sabiha Gökçen den Fahrer bar bezahlt. Genau das, was ich brauchte.",
+        "name": "Daniel K.",
+        "trip": "Frankfurt → Istanbul (SAW), Geschäftsreise"
+      },
+      {
+        "quote": "Russischsprachiger Fahrer, blitzsauberer Vito, half direkt bei der Ankunft mit den Kindertaschen. Wir nutzen time4transfer jedes Mal, wenn wir in Istanbul landen.",
+        "name": "Irina V.",
+        "trip": "Moskau → Istanbul (IST), Wochenende mit Familie"
+      }
+    ]
+  },
+  "faq": {
+    "title": "Antworten auf Ihre Fragen",
+    "items": [
+      {
+        "q": "Was passiert, wenn mein Flug Verspätung hat?",
+        "a": "Wir verfolgen Ihren Flug automatisch. Ihr Fahrer passt die Abholung an die tatsächliche Landezeit an, mit bis zu 60 Minuten kostenloser Wartezeit."
+      },
+      {
+        "q": "Kann ich den Fahrer bar bezahlen?",
+        "a": "Ja — das ist unsere risikofreie Option. Wir akzeptieren Euro, US-Dollar, britische Pfund oder türkische Lira. Karte bei Ankunft ist ebenfalls möglich."
+      },
+      {
+        "q": "Sind Kindersitze verfügbar?",
+        "a": "Babyschalen, Kleinkind- und Sitzerhöhungen sind kostenlos. Einfach bei der Buchung hinzufügen."
+      },
+      {
+        "q": "Sind Sie auch außerhalb der Haupturlauberflughäfen tätig?",
+        "a": "Ja. Wir bedienen jeden kommerziellen Flughafen in der Türkei sowie Hafenabholungen und Überlandtransfers."
+      },
+      {
+        "q": "Was, wenn ich stornieren muss?",
+        "a": "Kostenlose Stornierung bis 24 Stunden vor Abholung. Danach berechnen wir 50% für die reservierte Zeit des Fahrers."
+      }
+    ]
+  },
+  "footer": {
+    "tagline": "Privattransfers als Gastfreundschaft.",
+    "company": "Unternehmen",
+    "about": "Über uns",
+    "fleet": "Unsere Flotte",
+    "careers": "Karriere",
+    "press": "Presse",
+    "support": "Support",
+    "contact": "Kontakt",
+    "help": "Hilfecenter",
+    "terms": "AGB",
+    "privacy": "Datenschutz",
+    "legal": "time4transfer · Istanbul · Türkei",
+    "rights": "Alle Rechte vorbehalten."
+  },
+  "common": {
+    "language": "Sprache",
+    "menu": "Menü",
+    "close": "Schließen"
+  }
+}
