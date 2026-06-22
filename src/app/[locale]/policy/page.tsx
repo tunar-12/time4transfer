@@ -105,7 +105,7 @@ export default async function PolicyPage({
               >
                 hello@time4transfer.com
               </a>{" "}
-              or via WhatsApp at +90 850 222 12 34.
+              or via WhatsApp at +90 501 953 80 25.
             </Section>
 
             <Section title="9. Changes to this policy">

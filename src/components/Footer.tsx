@@ -76,8 +76,8 @@ export function Footer() {
                 </a>
               </li>
               <li>
-                <a href="tel:+908502221234" className="hover:text-gold-soft transition-colors">
-                  +90 850 222 12 34
+                <a href="tel:+905019538025" className="hover:text-gold-soft transition-colors">
+                  +90 501 953 80 25
                 </a>
               </li>
               <li className="text-bone/55 mt-2">WhatsApp · 24/7</li>

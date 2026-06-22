@@ -139,7 +139,7 @@ export default async function LocaleLayout({
     logo: `${SITE_URL}/logo.jpeg`,
     description:
       "Fixed-price private airport transfers from Istanbul Airport (IST) and Sabiha Gökçen Airport (SAW) to anywhere in Istanbul. Mercedes Vito and Sprinter, English-speaking drivers, pay your driver on arrival.",
-    telephone: "+905412117805",
+    telephone: "+905019538025",
     priceRange: "$$",
     currenciesAccepted: "USD, EUR, TRY",
     paymentAccepted: "Cash, Credit Card",
@@ -163,7 +163,7 @@ export default async function LocaleLayout({
     },
     contactPoint: {
       "@type": "ContactPoint",
-      telephone: "+905412117805",
+      telephone: "+905019538025",
       contactType: "reservations",
       availableLanguage: ["en", "tr", "ru", "de"],
       areaServed: "TR",

@@ -4,8 +4,8 @@
  * Site-wide floating WhatsApp button — opens a chat with our dispatch line.
  * Number is centralised here so the FAB and the booking-submit handler agree.
  */
-export const WHATSAPP_E164 = "905412117805"; // +90 541 211 78 05
-export const WHATSAPP_DISPLAY = "+90 541 211 78 05";
+export const WHATSAPP_E164 = "905019538025"; // +90 501 953 80 25
+export const WHATSAPP_DISPLAY = "+90 501 953 80 25";
 
 export function whatsappUrl(message?: string) {
   const base = `https://wa.me/${WHATSAPP_E164}`;
