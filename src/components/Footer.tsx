@@ -7,14 +7,27 @@ import { Wordmark } from "./Wordmark";
 export function Footer() {
   const t = useTranslations("footer");
 
-  const groups = [
+  // Footer link groups. Each link is { label, href } so real routes (like
+  // /policy) get a working anchor; placeholders still use "#" until those
+  // pages exist.
+  const groups: { title: string; links: { label: string; href: string }[] }[] = [
     {
       title: t("company"),
-      links: [t("about"), t("fleet"), t("careers"), t("press")],
+      links: [
+        { label: t("about"), href: "#" },
+        { label: t("fleet"), href: "#fleet" },
+        { label: t("careers"), href: "#" },
+        { label: t("press"), href: "#" },
+      ],
     },
     {
       title: t("support"),
-      links: [t("contact"), t("help"), t("terms"), t("privacy")],
+      links: [
+        { label: t("contact"), href: "#book" },
+        { label: t("help"), href: "#" },
+        { label: t("terms"), href: "#" },
+        { label: t("privacy"), href: "/policy" },
+      ],
     },
   ];
 
@@ -39,12 +52,12 @@ export function Footer() {
               </p>
               <ul className="mt-4 grid gap-2 text-sm text-bone/80">
                 {g.links.map((l) => (
-                  <li key={l}>
+                  <li key={l.label}>
                     <a
-                      href="#"
+                      href={l.href}
                       className="inline-block transition-colors hover:text-gold-soft"
                     >
-                      {l}
+                      {l.label}
                     </a>
                   </li>
                 ))}
