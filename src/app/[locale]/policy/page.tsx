@@ -98,14 +98,17 @@ export default async function PolicyPage({
             </Section>
 
             <Section title="8. Contact us">
-              For any privacy questions or requests, contact us at{" "}
+              For any privacy questions or requests, contact us via WhatsApp
+              at{" "}
               <a
-                href="mailto:hello@time4transfer.com"
+                href="https://wa.me/905019538025"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="text-gold-deep underline-offset-4 hover:underline"
               >
-                hello@time4transfer.com
-              </a>{" "}
-              or via WhatsApp at +90 501 953 80 25.
+                +90 501 953 80 25
+              </a>
+              .
             </Section>
 
             <Section title="9. Changes to this policy">

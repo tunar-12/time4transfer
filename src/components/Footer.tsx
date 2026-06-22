@@ -71,11 +71,6 @@ export function Footer() {
             </p>
             <ul className="mt-4 grid gap-2 text-sm text-bone/80">
               <li>
-                <a href="mailto:hello@time4transfer.com" className="hover:text-gold-soft transition-colors">
-                  hello@time4transfer.com
-                </a>
-              </li>
-              <li>
                 <a href="tel:+905019538025" className="hover:text-gold-soft transition-colors">
                   +90 501 953 80 25
                 </a>
