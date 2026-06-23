@@ -354,7 +354,7 @@ export function BookingWidget() {
               transition={{ duration: 0.3, ease: [0.22, 1, 0.36, 1] }}
               className="mt-4 grid gap-4 lg:grid-cols-[1.1fr_1fr]"
             >
-              <div className="grid gap-3 min-w-0">
+              <div className="grid gap-3">
                 <RouteLine pickup={pickupLabel ?? undefined} dropoff={dropoff?.label} />
                 <QuoteCard
                   vehicleName={tv(`${vehicle}.name`)}
@@ -381,25 +381,16 @@ export function BookingWidget() {
                   heading={t("payToDriverHeading")}
                   note={t("payToDriverNote")}
                 />
-                <div className="flex flex-col-reverse gap-2 sm:flex-row sm:items-center">
-                  <Button
-                    variant="outlineLight"
-                    size="md"
-                    className="w-full sm:w-auto"
-                    onClick={() => setStep("trip")}
-                  >
+                <div className="flex items-center gap-2">
+                  <Button variant="outlineLight" size="md" onClick={() => setStep("trip")}>
                     <ArrowLeft className="h-4 w-4" /> {t("back")}
                   </Button>
-                  <Button
-                    size="md"
-                    className="w-full sm:flex-1"
-                    onClick={() => setStep("details")}
-                  >
+                  <Button size="md" className="flex-1" onClick={() => setStep("details")}>
                     {t("continue")} <ArrowRight className="h-4 w-4" />
                   </Button>
                 </div>
               </div>
-              <div className="h-[280px] sm:h-[320px] lg:h-auto min-w-0">
+              <div className="h-[320px] lg:h-auto">
                 <RouteMap pickup={pickupCoords} dropoff={dropoffCoords} />
               </div>
             </motion.div>
@@ -533,20 +524,11 @@ export function BookingWidget() {
 
               <p className="text-[11px] text-bone/45 px-1">{t("submitNote")}</p>
 
-              <div className="flex flex-col-reverse gap-2 sm:flex-row sm:items-center">
-                <Button
-                  variant="outlineLight"
-                  size="md"
-                  className="w-full sm:w-auto"
-                  onClick={() => setStep("quote")}
-                >
+              <div className="flex items-center gap-2">
+                <Button variant="outlineLight" size="md" onClick={() => setStep("quote")}>
                   <ArrowLeft className="h-4 w-4" /> {t("back")}
                 </Button>
-                <Button
-                  size="md"
-                  className="w-full sm:flex-1"
-                  onClick={submitToWhatsApp}
-                >
+                <Button size="md" className="flex-1" onClick={submitToWhatsApp}>
                   <WhatsAppMark />
                   {t("submitWhatsApp")}
                 </Button>
@@ -724,7 +706,7 @@ function VehicleSwitcher({
             disabled={!fits}
             onClick={() => onPick(v.key)}
             className={cn(
-              "group flex min-w-0 flex-col items-start gap-1 overflow-hidden rounded-2xl border px-3 py-2.5 text-left transition-all duration-200",
+              "group flex flex-col items-start gap-1 rounded-2xl border px-3 py-2.5 text-left transition-all duration-200",
               active
                 ? "border-gold/60 bg-gold/10"
                 : "border-white/[0.07] bg-white/[0.03] hover:border-white/15",
@@ -739,9 +721,7 @@ function VehicleSwitcher({
             >
               max {v.capacity}
             </span>
-            <span className="w-full text-xs leading-tight text-bone/90 text-balance break-words">
-              {nameFor(v.key)}
-            </span>
+            <span className="text-xs leading-tight text-bone/90 text-balance">{nameFor(v.key)}</span>
             <span
               className={cn(
                 "font-display text-sm tabular",
