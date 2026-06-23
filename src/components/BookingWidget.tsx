@@ -352,7 +352,7 @@ export function BookingWidget() {
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0, y: -8 }}
               transition={{ duration: 0.3, ease: [0.22, 1, 0.36, 1] }}
-              className="mt-4 grid gap-4 lg:grid-cols-[minmax(0,1.1fr)_minmax(0,1fr)]"
+              className="mt-4 grid gap-4 lg:grid-cols-[1.1fr_1fr]"
             >
               <div className="grid gap-3 min-w-0">
                 <RouteLine pickup={pickupLabel ?? undefined} dropoff={dropoff?.label} />
