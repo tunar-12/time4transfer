@@ -256,7 +256,7 @@ export function BookingWidget() {
   }
 
   return (
-    <div className="relative w-full max-w-[640px] min-w-0 overflow-x-hidden rounded-3xl glass-dark p-3 sm:p-4 shadow-elevated">
+    <div className="relative w-full max-w-[640px] min-w-0 rounded-3xl glass-dark p-3 sm:p-4 shadow-elevated">
       <div className="pointer-events-none absolute inset-0 rounded-3xl ring-1 ring-inset ring-gold/15" />
 
       <div className="relative">
